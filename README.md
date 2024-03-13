@@ -4,7 +4,7 @@ Rigged based on https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_was
 
 ```shell
 $ wasm-pack build --target web
-$ python -m http.server 8010
+$ python3 -m http.server 8010
 
 # load http://localhost:8010/test.html
 ```
